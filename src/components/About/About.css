@@ -46,7 +46,7 @@
     height: fit-content;
 }
 
-.about-description >h2 {
+.about-description > h2 {
     margin-bottom: 40px;
     font-size: 3.5rem;
     font-family: var(--primaryFont);
