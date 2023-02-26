@@ -8,18 +8,22 @@ import './ExperienceTimeline.css';
 
 import cambridgeCrestImg from '../../assets/png/cambridge_crest_logo.png'
 
-// import React,{useContext} from 'react';
-// import { ThemeContext } from '../../contexts/ThemeContext';
+import React,{useContext} from 'react';
+import { ThemeContext } from '../../contexts/ThemeContext';
 
 
 function ExperienceTimeline() {
+    const { theme } = useContext(ThemeContext);
 
     return(
-        <div className="experience-timeline" id="experience-timeline" style={{backgroundColor: "gray"}}> 
+        <div className="experience-timeline" id="experience-timeline" style={{backgroundColor: theme.secondary}}>
+            <h1 className="experience-time-title" style={{color: theme.primary}}>
+                Experience
+            </h1>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                     date="2011 - present"
                     dateClassName='experience-timeline-date'
@@ -34,6 +38,7 @@ function ExperienceTimeline() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
                     date="2010 - 2011"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -48,6 +53,7 @@ function ExperienceTimeline() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
                     date="2008 - 2010"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -61,6 +67,7 @@ function ExperienceTimeline() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
                     date="2006 - 2008"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -74,6 +81,7 @@ function ExperienceTimeline() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
                     date="April 2013"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
@@ -87,6 +95,7 @@ function ExperienceTimeline() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
                     date="November 2012"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
@@ -100,6 +109,7 @@ function ExperienceTimeline() {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
                     date="2002 - 2006"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}

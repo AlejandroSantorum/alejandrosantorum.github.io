@@ -1,4 +1,10 @@
-
+.experience-timeline > h1 {
+    font-size: 3.5rem;
+    /* padding-top: 2rem; */
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: var(--primaryFont)
+}
 
 .experience-timeline h3 {
     font-family: var(--primaryFont)
