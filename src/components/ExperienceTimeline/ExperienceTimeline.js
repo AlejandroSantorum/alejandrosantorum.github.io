@@ -1,4 +1,5 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { GoLocation } from "react-icons/go";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
@@ -31,7 +32,10 @@ function ExperienceTimeline() {
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                    <div className="location-next-to-text">
+                        <GoLocation style={{paddingRight: "5px"}}/>
+                        <h5 className="vertical-timeline-element-subtitle">Miami, FL</h5>
+                    </div>
                     <p>
                     Creative Direction, User Experience, Visual Design, Project Management, Team Leading
                     </p>
@@ -46,7 +50,10 @@ function ExperienceTimeline() {
                 >
                     <img src={cambridgeCrestImg} alt="Camrbidge crest logo" style={{width: "90px", float: "right"}}/>
                     <h3 className="vertical-timeline-element-title">Art Director</h3>
-                    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                    <div className="location-next-to-text">
+                        <GoLocation style={{paddingRight: "5px"}}/>
+                        <h5 className="vertical-timeline-element-subtitle">San Francisco, CA</h5>
+                    </div>
                     <p>
                     Creative Direction, User Experience, Visual Design, SEO, Online Marketing
                     </p>
@@ -60,7 +67,10 @@ function ExperienceTimeline() {
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+                    <div className="location-next-to-text">
+                        <GoLocation style={{paddingRight: "5px"}}/>
+                        <h5 className="vertical-timeline-element-subtitle">Los Angeles, CA</h5>
+                    </div>
                     <p>
                     User Experience, Visual Design
                     </p>
@@ -74,7 +84,10 @@ function ExperienceTimeline() {
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                    <div className="location-next-to-text">
+                        <GoLocation style={{paddingRight: "5px"}}/>
+                        <h5 className="vertical-timeline-element-subtitle">San Francisco, CA</h5>
+                    </div>
                     <p>
                     User Experience, Visual Design
                     </p>
@@ -88,7 +101,10 @@ function ExperienceTimeline() {
                     icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+                    <div className="location-next-to-text">
+                        <GoLocation style={{paddingRight: "5px"}}/>
+                        <h5 className="vertical-timeline-element-subtitle">Online Course</h5>
+                    </div>
                     <p>
                     Strategy, Social Media
                     </p>
@@ -102,7 +118,10 @@ function ExperienceTimeline() {
                     icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+                    <div className="location-next-to-text">
+                        <GoLocation style={{paddingRight: "5px"}}/>
+                        <h5 className="vertical-timeline-element-subtitle">Online Course</h5>
+                    </div>
                     <p>
                     Creative Direction, User Experience, Visual Design
                     </p>
@@ -116,7 +135,10 @@ function ExperienceTimeline() {
                     icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+                    <div className="location-next-to-text">
+                        <GoLocation style={{paddingRight: "5px"}}/>
+                        <h5 className="vertical-timeline-element-subtitle">Online Course</h5>
+                    </div>
                     <p>
                     Creative Direction, Visual Design
                     </p>

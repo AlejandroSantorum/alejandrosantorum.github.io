@@ -1,3 +1,8 @@
+.location-next-to-text {
+    display: flex;
+    align-items: center;
+}
+
 .experience-timeline > h1 {
     font-size: 3.5rem;
     /* padding-top: 2rem; */
@@ -10,7 +15,7 @@
     font-family: var(--primaryFont)
 }
 
-.experience-timeline h4 {
+.experience-timeline h5 {
     font-family: var(--primaryFont)
 }
 
