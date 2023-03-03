@@ -4,13 +4,16 @@ import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
 
+import React,{useContext} from 'react';
+import { ThemeContext } from '../../contexts/ThemeContext';
+
 import 'react-vertical-timeline-component/style.min.css';
 import './ExperienceTimeline.css';
 
 import cambridgeCrestImg from '../../assets/png/cambridge_crest_logo.png'
+import toshibaLogo from '../../assets/png/toshiba_logo.png'
+import uamLogo from '../../assets/png/uam_logo.png'
 
-import React,{useContext} from 'react';
-import { ThemeContext } from '../../contexts/ThemeContext';
 
 
 function ExperienceTimeline() {
@@ -24,123 +27,74 @@ function ExperienceTimeline() {
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="2011 - present"
+                    contentStyle={{ background: theme.primary50, color: theme.tertiary }}
+                    //contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="Oct. 2022 - present"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title">Creative Director</h3>
+                    <h3 className="vertical-timeline-element-title">Data Engineer</h3>
                     <div className="location-next-to-text">
                         <GoLocation style={{paddingRight: "5px"}}/>
-                        <h5 className="vertical-timeline-element-subtitle">Miami, FL</h5>
+                        <h5 className="vertical-timeline-element-subtitle">Sports betting consultancy, London, UK</h5>
                     </div>
                     <p>
-                    Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                    Data Engineer for an undisclosed sports betting company that invests on betting markets using machine learning to make profit.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
-                    date="2010 - 2011"
+                    contentStyle={{ background: theme.primary50, color: theme.tertiary }}
+                    date="Apr. 2022 - Sept. 2022"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon={<WorkIcon />}
                 >
-                    <img src={cambridgeCrestImg} alt="Camrbidge crest logo" style={{width: "90px", float: "right"}}/>
-                    <h3 className="vertical-timeline-element-title">Art Director</h3>
+                    <img src={toshibaLogo} alt="Toshiba logo" style={{width: "130px", float: "right"}}/>
+                    <h3 className="vertical-timeline-element-title">Machine Learning Research Intern</h3>
                     <div className="location-next-to-text">
                         <GoLocation style={{paddingRight: "5px"}}/>
-                        <h5 className="vertical-timeline-element-subtitle">San Francisco, CA</h5>
+                        <h5 className="vertical-timeline-element-subtitle">Toshiba Europe Ltd., Cambridge, UK</h5>
                     </div>
                     <p>
-                    Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                    Internship in collaboration with the Cambridge University Engineering Department. The research focused on improving SOTA multimodal transformer models on the coreference resolution task. 
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
-                    date="2008 - 2010"
-                    dateClassName='experience-timeline-date'
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    icon={<WorkIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <div className="location-next-to-text">
-                        <GoLocation style={{paddingRight: "5px"}}/>
-                        <h5 className="vertical-timeline-element-subtitle">Los Angeles, CA</h5>
-                    </div>
-                    <p>
-                    User Experience, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
-                    date="2006 - 2008"
-                    dateClassName='experience-timeline-date'
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    icon={<WorkIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                    <div className="location-next-to-text">
-                        <GoLocation style={{paddingRight: "5px"}}/>
-                        <h5 className="vertical-timeline-element-subtitle">San Francisco, CA</h5>
-                    </div>
-                    <p>
-                    User Experience, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
-                    date="April 2013"
+                    contentStyle={{ background: theme.primary50, color: theme.tertiary }}
+                    date="Oct. 2021 - Aug. 2022"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<SchoolIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
+                    <img src={cambridgeCrestImg} alt="Cambridge crest logo" style={{width: "90px", float: "right"}}/>
+                    <h3 className="vertical-timeline-element-title">MPhil. Machine Learning and Machine Intelligence</h3>
                     <div className="location-next-to-text">
                         <GoLocation style={{paddingRight: "5px"}}/>
-                        <h5 className="vertical-timeline-element-subtitle">Online Course</h5>
+                        <h5 className="vertical-timeline-element-subtitle">Cambridge University, Engineering Department</h5>
                     </div>
                     <p>
-                    Strategy, Social Media
+                    The final dissertation focused on multimodal coreference resolution, awarded with a distinction.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
-                    date="November 2012"
+                    contentStyle={{ background: theme.primary50, color: theme.tertiary }}
+                    date="Sept. 2016 - Jun. 2021"
                     dateClassName='experience-timeline-date'
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<SchoolIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
+                    <img src={uamLogo} alt="UAM logo" style={{width: "120px", float: "right"}}/>
+                    <h3 className="vertical-timeline-element-title">Joint B.Sc. in Computer Science and Mathematics</h3>
                     <div className="location-next-to-text">
                         <GoLocation style={{paddingRight: "5px"}}/>
-                        <h5 className="vertical-timeline-element-subtitle">Online Course</h5>
+                        <h5 className="vertical-timeline-element-subtitle">Autonomous University of Madrid, Spain</h5>
                     </div>
                     <p>
-                    Creative Direction, User Experience, Visual Design
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: theme.tertiary }}
-                    date="2002 - 2006"
-                    dateClassName='experience-timeline-date'
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    icon={<SchoolIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                    <div className="location-next-to-text">
-                        <GoLocation style={{paddingRight: "5px"}}/>
-                        <h5 className="vertical-timeline-element-subtitle">Online Course</h5>
-                    </div>
-                    <p>
-                    Creative Direction, Visual Design
+                    Specialized in machine learning, probability and statistics.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
