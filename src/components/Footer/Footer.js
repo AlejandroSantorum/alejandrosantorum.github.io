@@ -5,14 +5,6 @@ import { headerData } from '../../data/headerData'
 
 function Footer() {
 
-    const shortname = (name) => {
-        if(name.length > 10) {
-            return name.split(" ")[0]
-        } else {
-            return name
-        }
-    }
-
     const { theme }  = useContext(ThemeContext)
 
     return (
@@ -22,7 +14,7 @@ function Footer() {
                 <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
                     ❤
                 </span>
-                 by {shortname(headerData.name)}
+                 by {headerData.name}
             </p>
         </div>
     )
