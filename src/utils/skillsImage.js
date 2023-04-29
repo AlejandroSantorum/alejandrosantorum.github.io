@@ -75,6 +75,10 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import scikit_learn from '../assets/svg/skills/scikitlearn.png'
+import latex from '../assets/svg/skills/latex.svg'
+import airflow from '../assets/svg/skills/airflow.svg'
+
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +231,12 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'scikit-learn':
+            return scikit_learn
+        case 'latex':
+            return latex
+        case 'airflow':
+            return airflow
         default:
             break;
     }
