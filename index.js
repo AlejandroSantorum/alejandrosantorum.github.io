@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import ThemeContextProvider from './contexts/ThemeContext'
+import App from './src/App';
+import reportWebVitals from './src/reportWebVitals';
+import ThemeContextProvider from './src/contexts/ThemeContext'
 
 
 import "slick-carousel/slick/slick.css"; 
