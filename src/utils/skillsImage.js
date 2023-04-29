@@ -77,7 +77,11 @@ import canva from '../assets/svg/skills/canva.svg'
 
 import scikit_learn from '../assets/svg/skills/scikitlearn.png'
 import latex from '../assets/svg/skills/latex.svg'
+import sql from '../assets/svg/skills/sql.svg'
 import airflow from '../assets/svg/skills/airflow.svg'
+import pandas from '../assets/svg/skills/pandas.png'
+import matplotlib from '../assets/svg/skills/matplotlib.png'
+import huggingface from '../assets/svg/skills/huggingface.svg'
 
 
 export const skillsImage = (skill) => {
@@ -233,10 +237,18 @@ export const skillsImage = (skill) => {
             return canva;
         case 'scikit-learn':
             return scikit_learn
+        case 'sql':
+            return sql
         case 'latex':
             return latex
         case 'airflow':
             return airflow
+        case 'pandas':
+            return pandas
+        case 'matplotlib':
+            return matplotlib
+        case 'hugging face':
+            return huggingface
         default:
             break;
     }
