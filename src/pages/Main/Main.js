@@ -13,7 +13,7 @@ function Main() {
     return (
         <div>
             <Helmet>
-                <title>{headerData.name} {headerData.second_surname}</title>
+                <title>{headerData.name} - Porfolio</title>
             </Helmet>
 
             <Navbar />        
