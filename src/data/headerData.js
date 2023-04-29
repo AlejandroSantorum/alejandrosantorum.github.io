@@ -4,6 +4,9 @@ import personalSignatureImg from '../assets/png/asantorum_signature.png'
 
 export const headerData = {
     name: 'Alejandro Santorum',
+    firstname: 'Alejandro',
+    first_surname: 'Santorum',
+    second_surname: 'Varela',
     title: "Data Engineer and Data Scientist",
     desciption:"MPhil. in Machine Learning and Machine Intelligence at the University of Cambridge. Computer Science and Mathematics graduate at UAM.",
     //image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
