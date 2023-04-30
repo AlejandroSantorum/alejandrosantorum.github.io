@@ -7,8 +7,39 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
+import mmcr_simmc2 from '../assets/png/projects/mmcr_simmc2.png'
+import scikit_rmt from '../assets/png/projects/scikit-rmt_logo_rounded.png'
+import uam_apuntes_img from '../assets/png/projects/uam_apuntes_img.png'
+
 
 export const projectsData = [
+    {
+        id: 10,
+        projectName: 'Multimodal Coreference Resolution',
+        projectDesc: 'Entity resolution on the SIMMC2 dataset using visual and text-based Transformer models. Entries from the DSTC10 analyzed and improved.',
+        tags: ['MMCR with SIMMC2.0', 'BART, UNITER', 'Transformers', 'ML & NLP'],
+        code: 'https://github.com/AlejandroSantorum/simmc2-Multimodal_Coreference_Resolution',
+        demo: 'https://github.com/AlejandroSantorum/simmc2-Multimodal_Coreference_Resolution',
+        image: mmcr_simmc2
+    },
+    {
+        id: 11,
+        projectName: 'scikit-rmt',
+        projectDesc: 'Open source Python library that offers functions, methods and routines for Random Matrix Theory analysis and covariance matrix estimation.',
+        tags: ['RMT in Python', 'Spectral analysis', 'Wigner\'s Law', 'Marchenko-Pastur\'s Law'],
+        code: 'https://github.com/AlejandroSantorum/scikit-rmt',
+        demo: 'https://github.com/AlejandroSantorum/scikit-rmt',
+        image: scikit_rmt
+    },
+    {
+        id: 12,
+        projectName: 'Computer Science and Mathematics B.Sc. notes',
+        projectDesc: 'Notes, assignments and exams of CS and Maths. Joint B.Sc in Computer Science and Mathematis at UAM.',
+        tags: ['Computer Science', 'Mathematics', 'UAM', 'Notes and exams'],
+        code: 'https://github.com/AlejandroSantorum/Apuntes_Mat_IngInf',
+        demo: 'https://github.com/AlejandroSantorum/Apuntes_Mat_IngInf',
+        image: uam_apuntes_img
+    },
     {
         id: 1,
         projectName: 'Employee Management',
