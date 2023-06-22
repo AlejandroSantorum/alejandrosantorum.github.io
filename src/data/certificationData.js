@@ -3,33 +3,43 @@ export const certificationData = {
     certifications : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            title_url : 'https://github.com/AlejandroSantorum',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            credential_id : 'Automation',
-            credential_url : 'https://github.com/AlejandroSantorum',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'Machine Learning Engineering for Production (MLOps) Specialization',
+            title_url : 'https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops',
+            details : 'TODO.',
+            date : 'May 2023',
+            credential_id : 'K4FXZWJNX383',
+            credential_url : 'https://coursera.org/share/5270dc052848b41fec59da1361930a00',
+            image : 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/b4/5cb90bb92f420b99bf323a0356f451/Icon.png?auto=format%2Ccompress&dpr=2&w=80&h=80'
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            title_url : 'https://github.com/AlejandroSantorum',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            credential_id : 'Automation',
-            credential_url : 'https://github.com/AlejandroSantorum',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Deep Learning Specialization',
+            title_url : 'https://www.coursera.org/specializations/deep-learning',
+            details : 'TODO.',
+            date : 'Sept. 2020',
+            credential_id : 'HD56X4XHX5FS',
+            credential_url : 'https://coursera.org/share/2cb16da19f5aa9ee17d4bc8165cb827f',
+            image : 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/b4/5cb90bb92f420b99bf323a0356f451/Icon.png?auto=format%2Ccompress&dpr=2&w=80&h=80'
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            title_url : 'https://github.com/AlejandroSantorum',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            credential_id : 'Automation',
-            credential_url : 'https://github.com/AlejandroSantorum',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'IBM: Deep Learning with Python and PyTorch',
+            title_url : 'https://www.edx.org/course/deep-learning-with-python-and-pytorch',
+            details : 'TODO.',
+            date : 'Aug. 2020',
+            credential_id : '7334dd481bf74ed5a3a93504d5e4783b',
+            credential_url : 'https://courses.edx.org/certificates/7334dd481bf74ed5a3a93504d5e4783b',
+            image : 'https://www.edx.org/images/logos/edx-logo-elm.svg'
+        },
+        {
+            id : 4,
+            title : 'HarvardX: High-Dimensional Data Analysis',
+            title_url : 'https://www.edx.org/course/high-dimensional-data-analysis',
+            details : 'TODO.',
+            date : 'Jul. 2020',
+            credential_id : '32d1186cf81e4e4fadfe804f6e84e330',
+            credential_url : 'https://courses.edx.org/certificates/32d1186cf81e4e4fadfe804f6e84e330',
+            image : 'https://www.edx.org/images/logos/edx-logo-elm.svg'
         }
 
     ]
