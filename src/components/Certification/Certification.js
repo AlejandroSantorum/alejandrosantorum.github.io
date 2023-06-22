@@ -22,7 +22,7 @@ function Certification() {
                         key={certif.id}
                         id={certif.id}
                         title={certif.title}
-                        title_href={certif.title_url}
+                        title_url={certif.title_url}
                         details={certif.details}
                         date={certif.date}
                         credential_id={certif.credential_id}
