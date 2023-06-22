@@ -6,16 +6,16 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 
-import './Achievement.css'
+import './Certification.css'
 
-function AchievementCard(
+function CertificationCard(
     {id, title, title_url, details, date, credential_id, credential_url, image}
 ) {
 
     const { theme } = useContext(ThemeContext);
 
     const useStyles = makeStyles((t) => ({
-        achievementCard : {
+        certificationCard : {
             backgroundColor:theme.primary30,
             "&:hover": {
                 backgroundColor:theme.primary50,
@@ -26,9 +26,9 @@ function AchievementCard(
     const classes = useStyles();
     return (
         <Fade bottom>
-           <div key={id} className={`achievement-card ${classes.achievementCard}`}>
-               <div className="achievecard-content">
-                    <div className="achievecard-details1">
+           <div key={id} className={`certification-card ${classes.certificationCard}`}>
+               <div className="certificationcard-content">
+                    <div className="certificationcard-details1">
                         <h2 style={{color: theme.tertiary}}>
                             <a style={{color: theme.tertiary}} href={title_url}>
                                 {title}
@@ -36,9 +36,9 @@ function AchievementCard(
                         </h2>
                         <p style={{color: theme.tertiary80}}>{details}</p>
                     </div>
-                    <div className="achievecard-details2" style={{color: theme.primary}}>
+                    <div className="certificationcard-details2" style={{color: theme.primary}}>
                         <h5>{date}</h5>
-                        <div className="achievecard-credential">
+                        <div className="certificationcard-credential">
                             <AiOutlineSafetyCertificate />
                             <h5>
                                 <a style={{color: theme.primary}} href={credential_url}>
@@ -48,7 +48,7 @@ function AchievementCard(
                         </div>   
                     </div>
                 </div> 
-                <div className="achievecard-imgcontainer">
+                <div className="certificationcard-imgcontainer">
                     <img src={image} alt="" />
                 </div>
            </div>
@@ -57,4 +57,4 @@ function AchievementCard(
     )
 }
 
-export default AchievementCard
+export default CertificationCard
