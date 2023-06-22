@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
-import { AiOutlineFolder } from "react-icons/ai";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
 
 import './Achievement.css'
 
@@ -39,7 +39,7 @@ function AchievementCard(
                     <div className="achievecard-details2" style={{color: theme.primary}}>
                         <h5>{date}</h5>
                         <div className="achievecard-credential">
-                            <AiOutlineFolder />
+                            <AiOutlineSafetyCertificate />
                             <h5>
                                 <a style={{color: theme.primary}} href={credential_url}>
                                     {credential_id}
