@@ -79,14 +79,14 @@
    width: 50%;
 }
 
-.achievecard-field {
+.achievecard-credential {
     width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.achievecard-field svg {
+.achievecard-credential svg {
     margin-right: 6px;
 }
 

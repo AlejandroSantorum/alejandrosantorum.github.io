@@ -22,9 +22,11 @@ function Achievement() {
                         key={achieve.id}
                         id={achieve.id}
                         title={achieve.title}
+                        title_href={achieve.title_url}
                         details={achieve.details}
                         date={achieve.date}
-                        field={achieve.field}
+                        credential_id={achieve.credential_id}
+                        credential_url={achieve.credential_url}
                         image={achieve.image}/>
                     ))}
                 </div>
