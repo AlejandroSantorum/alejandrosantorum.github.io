@@ -1,23 +1,21 @@
+import ieee_logo_img from '../assets/png/publications/ieee_logo.png'
+import in_peer_review_img from '../assets/png/publications/in_review.png'
+
 export const publicationsData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        title: 'Entity Resolution in Situated Dialog with Unimodal and Multimodal Transformers',
+        publicationDate: 'August 2023',
+        authors: 'Alejandro Santorum Varela, Svetlana Stoyanchev, Simon Keizer, Rama Doddipatla, Kate Knill',
+        journal: 'IEEE/ACM Transaction on Audio, Speech and Language Processing',
+        logo_img: ieee_logo_img,
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
-    },
-    {
-        id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        title: 'Entity Resolution in Situated Dialog with Unimodal and Multimodal Transformers',
+        publicationDate: 'August 2023',
+        authors: 'Alejandro Santorum Varela, Svetlana Stoyanchev, Simon Keizer, Rama Doddipatla, Kate Knill',
+        journal: 'IEEE/ACM Transaction on Audio, Speech and Language Processing',
+        logo_img: in_peer_review_img,
     },
 ]
