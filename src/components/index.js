@@ -10,8 +10,8 @@ export { default as Education } from './Education/Education'
 export { default as Experience } from'./Experience/Experience'
 export { default as Contacts } from'./Contacts/Contacts'
 export { default as Projects } from'./Projects/Projects'
-export { default as Services } from'./Services/Services'
 export { default as SingleProject } from './Projects/SingleProject/SingleProject'
+export { default as Services } from'./Services/Services'
 export { default as SingleService } from './Services/SingleService/SingleService'
 export { default as Certification } from './Certification/Certification'
 
@@ -19,3 +19,4 @@ export { default as BackToTop } from './BackToTop/BackToTop'
 
 // New:
 export { default as ExperienceTimeline } from './ExperienceTimeline/ExperienceTimeline'
+export { default as Publications} from './Publications/Publications'

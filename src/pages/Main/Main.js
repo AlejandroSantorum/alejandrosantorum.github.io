@@ -2,9 +2,9 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import {Navbar, Footer, Landing, About, Skills,
-        Testimonials, Blog, Education, Experience,
+        Testimonials, Blog, Experience, // Education,
         Contacts, Projects, Services, Certification,
-        ExperienceTimeline
+        ExperienceTimeline, Publications,
 } from '../../components'
 
 import { headerData } from '../../data/headerData'
@@ -20,7 +20,8 @@ function Main() {
             <Landing />
             <About />
             <ExperienceTimeline />
-            <Education />
+            <Publications />
+            {/* <Education /> */}
             <Skills />
             <Experience />
             <Projects />
