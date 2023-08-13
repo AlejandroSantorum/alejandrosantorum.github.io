@@ -66,16 +66,22 @@
     margin-bottom: 0.5rem;
 }
 
-.publications-details > h4 {
+.publications-details h4 {
     font-family: var(--primaryFont);
-    font-size: 1.225rem;
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 530;
 }
 
 .publications-details > h5 {
     font-family: var(--primaryFont);
-    font-size: 1.15rem;
-    font-weight: 600;
+    font-size: 1.05rem;
+    font-weight: 480;
+}
+
+.publications-details > p {
+    font-family: var(--primaryFont);
+    font-size: 1.05rem;
+    font-weight: 500;
 }
 
 .publications-image {

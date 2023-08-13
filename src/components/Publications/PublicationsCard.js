@@ -9,7 +9,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 
 import './Publications.css'
 
-function PublicationsCard({ id, title, publicationDate, authors, journal, logo_img }) {
+function PublicationsCard({ id, title, publicationDate, authors, journal, logo_img, paperLink }) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -33,9 +33,11 @@ function PublicationsCard({ id, title, publicationDate, authors, journal, logo_i
                 </div>
                 <div className="publications-details">
                     <h6 style={{color: theme.primary}}>{publicationDate}</h6>
-                    <h4 style={{color: theme.tertiary}}>{title}</h4>
+                    <a href={paperLink}>
+                        <h4 style={{color: theme.tertiary}}>{title}</h4>
+                    </a>
                     <h5 style={{color: theme.tertiary80}}>{authors}</h5>
-                    <h5 style={{color: theme.tertiary80}}>{journal}</h5>
+                    <p style={{color: theme.primary80}}>{journal}</p>
                 </div>
             </div>
         </Fade>        

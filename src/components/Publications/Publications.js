@@ -27,6 +27,7 @@ function Publications() {
                             authors={pub.authors}
                             journal={pub.journal}
                             logo_img={pub.logo_img}
+                            paperLink={pub.link}
                         />
                     ))}
                 </div>

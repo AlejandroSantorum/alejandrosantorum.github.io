@@ -1,10 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import {Navbar, Footer, Landing, About, Skills,
-        Testimonials, Blog, Experience, // Education,
-        Contacts, Projects, Services, Certification,
-        ExperienceTimeline, Publications,
+import {
+    Navbar, Footer, Landing, About, Skills,
+    Contacts, Projects , Certification,
+    ExperienceTimeline, Publications,
+    // Testimonials, Blog, Experience, Education, Services
 } from '../../components'
 
 import { headerData } from '../../data/headerData'
@@ -22,13 +23,13 @@ function Main() {
             <ExperienceTimeline />
             <Publications />
             {/* <Education /> */}
-            <Skills />
-            <Experience />
+            {/* <Experience /> */}
             <Projects />
+            <Skills />
             <Certification />
-            <Services />
-            <Testimonials />
-            <Blog />
+            {/* <Services /> */}
+            {/* <Testimonials /> */}
+            {/* <Blog /> */}
             <Contacts />
             <Footer />
         </div>
