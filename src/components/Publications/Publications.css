@@ -105,11 +105,11 @@
 
 
 @media screen and (max-width: 992px) {
-    .publications {
-        min-height: 100%;
-    }
     .publications-image {
-        display: none;
+        width: 50%;
+    }
+    .publications-body {
+        flex-direction: column;
     }
     .publications-description {
         flex: 1;
@@ -137,7 +137,7 @@
     .publications-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        /* height: 130px; */
     }
     .educard-img {
         border-radius: 50%;
