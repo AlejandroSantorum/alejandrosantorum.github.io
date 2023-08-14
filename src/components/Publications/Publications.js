@@ -13,7 +13,7 @@ function Publications() {
 
     const { theme } = useContext(ThemeContext);
     return (
-        <div className="publications" id="resume" style={{backgroundColor: theme.secondary}}>
+        <div className="publications" id="publications" style={{backgroundColor: theme.secondary}}>
            
             <div className="publications-body">
                 <div className="publications-description">
