@@ -58,7 +58,7 @@ function Navbar() {
             borderTopRightRadius: '40px',
             borderBottomRightRadius: '40px',
             [t.breakpoints.down('sm')]: {
-                width: '12em',
+                width: '14em', // Before 12
             },
         },
         closebtnIcon: {
