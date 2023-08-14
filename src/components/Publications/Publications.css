@@ -168,6 +168,9 @@
     .publications-description > h1{
         font-size: 2.5rem;
     }
+    .publications-image {
+        width: 65%;
+    }
 }
 
 @media screen and (max-width: 400px) {
