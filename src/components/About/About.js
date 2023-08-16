@@ -22,10 +22,11 @@ function About() {
                     <p style={{color:theme.tertiary80}}>{aboutData.description1}<br/><br/>{aboutData.description2}</p>
                 </div>
                 <div className="about-img">
-                    <img 
+                    <img src={aboutData.image} alt="me"/>
+                    {/* <img 
                         src={aboutData.image === 1 ? theme.aboutimg1 : theme.aboutimg2}  
                         alt="" 
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
